@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lglut -lGL")
 
-set(SOURCE_FILES main.cpp src/source/Point.cpp src/Point.h)
+set(SOURCE_FILES main.cpp src/source/Point.cpp src/Point.h src/source/DDA.cpp src/DDA.h)
 add_executable(Opengl ${SOURCE_FILES})
 
 find_package(OpenGL REQUIRED)

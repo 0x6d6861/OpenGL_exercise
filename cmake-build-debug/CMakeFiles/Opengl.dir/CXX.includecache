@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heri/CLionProjects/Opengl/main.cpp
+GL/glut.h
+-
+cstdio
+-
+src/DDA.h
+/home/heri/CLionProjects/Opengl/src/DDA.h
+cstring
+-
+
+/home/heri/CLionProjects/Opengl/src/DDA.h
+GL/glut.h
+/home/heri/CLionProjects/Opengl/src/GL/glut.h
+
+/home/heri/CLionProjects/Opengl/src/Point.h
+GL/glut.h
+-
+cstdio
+-
+
+/home/heri/CLionProjects/Opengl/src/source/DDA.cpp
+../DDA.h
+/home/heri/CLionProjects/Opengl/src/DDA.h
+cmath
+-
+cstdio
+-
+
+/home/heri/CLionProjects/Opengl/src/source/Point.cpp
+../Point.h
+/home/heri/CLionProjects/Opengl/src/Point.h
+
