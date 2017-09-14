@@ -1,13 +1,11 @@
 #include <GL/glut.h>
-#include <cstdio>
 #include "src/DDA.h"
-#include <cstring>
 
 
 void init () {
     glClearColor (1.0,1.0,1.0,1.0);
     gluOrtho2D (0,50,0,50);
-    glColor3f(0.0,0.0,0.0);
+    glColor3f(1.0,0.0,0.0);
 }
 
 
@@ -15,7 +13,7 @@ void init () {
 void shapepoint (){
 
     Point a{}, b{};
-    a = {2,3};
+    a = {3,3};
     b = {40,30};
 
 

@@ -4,7 +4,6 @@
 
 #include "../DDA.h"
 #include <cmath>
-#include <cstdio>
 
 
 GLfloat DDA::round_up(GLfloat number) {

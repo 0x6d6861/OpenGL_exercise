@@ -1,10 +1,10 @@
 //
 // Created by heri on 9/14/17.
 //
-#include "GL/glut.h"
 
 #ifndef OPENGL_DDA_H
 #define OPENGL_DDA_H
+#include "GL/glut.h"
 
 struct Point{
     GLfloat x, y;
