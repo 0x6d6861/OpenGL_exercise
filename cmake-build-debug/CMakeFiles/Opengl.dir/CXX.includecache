@@ -11,6 +11,10 @@ GL/glut.h
 -
 src/DDA.h
 /home/heri/CLionProjects/Opengl/src/DDA.h
+cstdio
+-
+iostream
+-
 
 /home/heri/CLionProjects/Opengl/src/DDA.h
 GL/glut.h
