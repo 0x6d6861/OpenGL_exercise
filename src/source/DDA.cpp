@@ -21,7 +21,7 @@ void DDA::draw() {
     // the last point wont be plotted
     steps++;
     //printf(" X | Y\n");
-    glClear(GL_COLOR_BUFFER_BIT);
+    glColor3f(1.0, 0.0, 0.0);
     glPointSize(10.0);
     glBegin(GL_POINTS);
         do{
@@ -45,7 +45,6 @@ void DDA::draw() {
             // loop until the steps is zero
         }while( steps );
     glEnd();
-    glFlush();
 }
 
 
