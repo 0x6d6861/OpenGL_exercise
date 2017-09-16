@@ -8,19 +8,15 @@ using namespace std;
 void draw_axis(int min_x, int max_x, int min_y, int max_y);
 
 void init () {
-
     gluOrtho2D (-15,65,-15,65);
     glClearColor(0.0f,0.0f,0.0f,0.2f);
     glClear(GL_COLOR_BUFFER_BIT);
-
     //glColor3f(1.0,0.0,0.0);
-
 }
 
 
 
 void shapepoint (){
-
     char comma;
 
     // Initialiase the two points to be used
