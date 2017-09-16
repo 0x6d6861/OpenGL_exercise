@@ -10,7 +10,7 @@ void draw_axis(int min_x, int max_x, int min_y, int max_y);
 void init () {
 
     gluOrtho2D (-15,65,-15,65);
-    glClearColor(0,0,0,0.2);
+    glClearColor(0.0f,0.0f,0.0f,0.2f);
     glClear(GL_COLOR_BUFFER_BIT);
 
     //glColor3f(1.0,0.0,0.0);
@@ -27,12 +27,12 @@ void shapepoint (){
     Point a{}, b{};
 
     // Assigns coordinates to the specfic points
-    a = {5,5};
-    b = {30,40};
+    //a = {5,5};
+    //b = {30,40};
 
     draw_axis(-10, 60, -10, 60);
 
-  /*
+  
    cout << "Please enter the first point int the format x,y: ";
    cin >> a.x >> comma >> a.y;
 
@@ -41,7 +41,7 @@ void shapepoint (){
 
     cout << "Ploting line from (" << a.x << "," << a.y << ") to (" << b.x << "," << b.y << ")\n";
 
-    */
+    
 
 
     // Pass the the two points to the DDA object
@@ -111,18 +111,19 @@ void draw_axis(int min_x, int max_x, int min_y, int max_y){
         // y-axis
         glColor3f(1.0, 1.0, 0.0);
         glBegin(GL_LINES);
-        glVertex3f(-0.5, i, 0.0);
-        glVertex3f(0.5, i, 0);
+        glVertex3f(-0.5f, i, 0.0f);
+        glVertex3f(0.5f, i, 0.0f);
         glEnd();
 
         if(i > 0) {
-            glColor3f(0.1, 0.1, 0.1);
+            glColor3f(0.1f, 0.1f, 0.1f);
             glBegin(GL_LINES);
-            glVertex3f(2, i, 0.0);
-            glVertex3f((max_x - 10), i, 0);
+            glVertex3f(2, i, 0.0f);
+            glVertex3f((max_x - 10), i, 0.0f);
             glEnd();
         }
 
     }
+    glFlush();
 
 }
