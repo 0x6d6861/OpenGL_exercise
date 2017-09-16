@@ -23,20 +23,20 @@ void shapepoint (){
     Point a{}, b{};
 
     // Assigns coordinates to the specfic points
-    //a = {5,5};
-    //b = {30,40};
+    a = {5,5};
+    b = {30,40};
 
     draw_axis(-10, 60, -10, 60);
 
   
-   cout << "Please enter the first point int the format x,y: ";
+   /*cout << "Please enter the first point int the format x,y: ";
    cin >> a.x >> comma >> a.y;
 
     cout << "Please enter the second point int the format x,y: ";
     cin >> b.x >> comma >> b.y;
 
     cout << "Ploting line from (" << a.x << "," << a.y << ") to (" << b.x << "," << b.y << ")\n";
-
+*/
     
 
 

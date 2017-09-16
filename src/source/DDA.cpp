@@ -21,7 +21,7 @@ void DDA::draw() {
     // the last point wont be plotted
     steps++;
     //printf(" X | Y\n");
-    glColor3f(1.0, 0.0, 0.0);
+    glColor3f(0.0, 1.0, 0.0);
     glPointSize(10.0);
     glBegin(GL_POINTS);
         do{
@@ -29,7 +29,7 @@ void DDA::draw() {
 
             // plot the specific point in the loop
             glVertex2d(round_up(x), round_up(y));
-
+            glColor3f(1.0, 0.0, 0.0);
             // check the value of gradient in oders
             // to use an accuracte formula
             if(gradient <= 1){
