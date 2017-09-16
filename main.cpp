@@ -54,7 +54,7 @@ int main (int argc , char** argv)
     glutInitWindowPosition (50,100);
     glutInitWindowSize(500,500);
     glutCreateWindow ("Shape Point");
-
+    
     init();
     glutDisplayFunc(shapepoint);
     glutMainLoop();
