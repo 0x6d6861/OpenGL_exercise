@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heri/CLionProjects/Opengl/main.cpp
+GL/glut.h
+-
+cstdio
+-
+
+/home/heri/CLionProjects/Opengl/src/Point.h
+GL/glut.h
+-
+cstdio
+-
+
+/home/heri/CLionProjects/Opengl/src/source/Point.cpp
+../Point.h
+/home/heri/CLionProjects/Opengl/src/Point.h
+
