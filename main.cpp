@@ -23,8 +23,8 @@ void shapepoint (){
     point1.x = 4;
     point1.y = 2;
 
-    point2.x = 10;
-    point2.y = 6;
+    point2.x = 30;
+    point2.y = 30;
 
 
     draw_axis(-10, 60, -10, 60);
