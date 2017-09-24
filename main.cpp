@@ -14,8 +14,6 @@ void init () {
     glClear(GL_COLOR_BUFFER_BIT);
 }
 
-
-
 void shapepoint (){
 
     Point point1, point2;
@@ -35,8 +33,7 @@ void shapepoint (){
 
 }
 
-int main (int argc , char** argv)
-{
+int main (int argc , char** argv){
     glutInit (&argc, argv);
     glutInitWindowPosition (50,100);
     glutInitWindowSize(500,500);
@@ -46,38 +43,6 @@ int main (int argc , char** argv)
     glutDisplayFunc(shapepoint);
     glutMainLoop();
     return 1;
-}
-
-
-void bresenham(Point a, Point b){
-    GLint x = a.x;
-    GLint y = a.y;
-    GLint dx = b.x - a.x;
-    GLint dy = b.y - a.y;
-    GLfloat m = GLfloat(dy) / GLfloat(dx);
-    GLint steps = (abs(dx) > abs(dy)) ? abs(dx) : abs(dy);
-    steps++;
-    GLint Pk = (m > 1) ? 2*dx - dy : 2*dy - dx;
-    glColor3f(0.0, 1.0, 0.0);
-    glPointSize(10.0);
-    glBegin(GL_POINTS);
-        do{
-            printf("%i | %i\n",x, y);
-            glVertex2d(x, y); // Plots the first point
-            if(Pk > 0){
-                x += 1;
-                y += 1;
-                Pk += (m > 1) ? 2*dx - 2*dy : 2*dy - 2*dx;
-            }else{
-                x += (m > 1) ? 0 : 1;
-                y += (m > 1) ? 1 : 0;
-                Pk += (m > 1) ? 2*dx  : 2*dy;
-            }
-            --steps;
-        }while(steps);
-    glEnd();
-    glFlush();
-
 }
 
 
@@ -139,6 +104,37 @@ void draw_axis(int min_x, int max_x, int min_y, int max_y){
         }
 
     }
+    glFlush();
+
+}
+
+void bresenham(Point a, Point b) {
+    GLint x = a.x;
+    GLint y = a.y;
+    GLint dx = b.x - a.x;
+    GLint dy = b.y - a.y;
+    GLfloat m = GLfloat(dy) / GLfloat(dx);
+    GLint steps = (abs(dx) > abs(dy)) ? abs(dx) : abs(dy);
+    steps++;
+    GLint Pk = (m > 1) ? 2*dx - dy : 2*dy - dx;
+    glColor3f(0.0, 1.0, 0.0);
+    glPointSize(10.0);
+    glBegin(GL_POINTS);
+    do{
+        printf("%i | %i\n",x, y);
+        glVertex2d(x, y); // Plots the first point
+        if(Pk > 0){
+            x += 1;
+            y += 1;
+            Pk += (m > 1) ? 2*dx - 2*dy : 2*dy - 2*dx;
+        }else{
+            x += (m > 1) ? 0 : 1;
+            y += (m > 1) ? 1 : 0;
+            Pk += (m > 1) ? 2*dx  : 2*dy;
+        }
+        --steps;
+    }while(steps);
+    glEnd();
     glFlush();
 
 }
