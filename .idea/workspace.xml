@@ -15,6 +15,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opengl.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opengl.dir/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Opengl" afterPath="$PROJECT_DIR$/cmake-build-debug/Opengl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opengl.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Opengl.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -30,17 +31,9 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <element signature="e#40#72#1" expanded="false" />
-                <element signature="e#170#291#0" expanded="false" />
-                <element signature="e#293#540#0" expanded="false" />
-                <element signature="e#542#794#0" expanded="false" />
-                <element signature="e#797#2111#0" expanded="false" />
-                <element signature="e#2113#2887#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="37">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,7 +49,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DDA" />
+        <entry key="$PROJECT_DIR$" value="Bresenham" />
       </map>
     </option>
   </component>
@@ -123,7 +116,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GO_FMT" value="false" />
   </component>
@@ -175,7 +168,9 @@
       <workItem from="1505506061032" duration="5831000" />
       <workItem from="1505580048444" duration="141000" />
       <workItem from="1506233173025" duration="341000" />
-      <workItem from="1506233565436" duration="835000" />
+      <workItem from="1506233565436" duration="1875000" />
+      <workItem from="1507059868417" duration="3332000" />
+      <workItem from="1507064583364" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="added version control file">
       <created>1504988933409</created>
@@ -202,31 +197,30 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37217000" />
+    <option name="totallyTimeSpent" value="41599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="746" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27567977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28323263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -273,15 +267,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -289,15 +275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -305,15 +283,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -323,15 +293,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -340,15 +302,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -357,15 +311,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -373,15 +319,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -389,15 +327,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -443,15 +373,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -459,15 +381,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,15 +391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -494,15 +400,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -511,15 +409,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -527,15 +417,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,15 +425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -590,23 +464,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#40#72#1" expanded="false" />
-            <element signature="e#170#291#0" expanded="false" />
-            <element signature="e#293#540#0" expanded="false" />
-            <element signature="e#542#794#0" expanded="false" />
-            <element signature="e#797#2111#0" expanded="false" />
-            <element signature="e#2113#2887#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="37">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

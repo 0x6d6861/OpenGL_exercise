@@ -9,8 +9,6 @@
 /home/heri/CLionProjects/Opengl/main.cpp
 GL/glut.h
 -
-cstdio
--
 
 /home/heri/CLionProjects/Opengl/src/Point.h
 GL/glut.h
